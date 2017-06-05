@@ -47,7 +47,7 @@
           <div class="hero__container">
             <div class="container">
               <div class="hero__content">
-                <div class="hero__left"><img class="hero__img" src="img/content/burger.png" alt=""></div>
+                <div class="hero__left"><img class="hero__img" src="./img/content/burger.png" alt=""></div>
                 <div class="hero__right">
                   <div class="section__title">Мы делаем</div>
                   <div class="hero__desc">Натуральные бургеры</div>
@@ -128,7 +128,7 @@
                   </svg>
                 </a>
               </div>
-              <ul class="burgers-slider">
+              <ul class="burgers-slider owl-carousel">
                 <li class="burgers-slider__item">
                   <div class="ingredients">
                     <div class="ingredients__icon">
@@ -228,7 +228,123 @@
                     </div>
                     <div class="burger-weight__title">ккал</div>
                   </div>
-                  <div class="burgers-slider__left"><img class="burgers-slider__pic" src="img/content/black-burger.png" alt=""></div>
+                  <div class="burgers-slider__left"><img class="burgers-slider__pic" src="./img/content/black-burger.png" alt=""></div>
+                  <div class="burgers-slider__right">
+                    <div class="section__title section__title_white">Dark Beef Burger</div>
+                    <div class="burgers-slider__text text-block">
+                      <p>Ваш старый добрый знакомый, с рубленым бифштексом из 100% говядины, тремя кусочками нежнейшего сыра
+                        эмменталь, двумя помидорами, луком, салатом и соусом гриль теперь с добавлением экзотического соуса
+                        чураско.
+                      </p>
+                    </div>
+                    <div class="burgers-slider__options">
+                      <div class="burgers-slider__price">
+                        <div class="burgers-slider__price-amount">500</div>
+                        <div class="burgers-slider__price-measure">рублей</div>
+                      </div><a class="burgers-slider__buy btn" href="6">Заказать</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="burgers-slider__item">
+                  <div class="ingredients">
+                    <div class="ingredients__icon">
+                      <div class="ingredients__icon-pic">
+                        <svg class="ingredients__burger-icon">
+                          <use xlink:href="img/sprite.svg#burger"></use>
+                        </svg>
+                      </div>
+                      <div class="ingredients__icon-text">Состав</div>
+                    </div>
+                    <div class="ingredients__dropdown">
+                      <table class="indredients__table">
+                        <tr class="ingredients__table-row">
+                          <td class="ingredients__table-cell">
+                            <div class="ingredients__table-icon">
+                              <img src="img/icons/beef.svg" class="ingredients__table-icon-image" alt="">
+                            </div>
+                          </td>
+                          <td class="ingredients__table-cell">
+                            <div class="ingredients__table-icon">Говядина</div>
+                          </td>
+                          <td class="ingredients__table-cell">
+                            <div class="ingredients__table-icon">300г</div>
+                          </td>
+                        </tr>
+                        <tr class="ingredients__table-row">
+                          <td class="ingredients__table-cell">
+                            <div class="ingredients__table-icon">
+                              <img src="img/icons/buns.svg" class="ingredients__table-icon-image" alt="">
+                            </div>
+                          </td>
+                          <td class="ingredients__table-cell">
+                            <div class="ingredients__table-icon">Булочки</div>
+                          </td>
+                          <td class="ingredients__table-cell">
+                            <div class="ingredients__table-icon">100г</div>
+                          </td>
+                        </tr>
+                        <tr class="ingredients__table-row">
+                          <td class="ingredients__table-cell">
+                            <div class="ingredients__table-icon">
+                              <img src="img/icons/salad.svg" class="ingredients__table-icon-image" alt="">
+                            </div>
+                          </td>
+                          <td class="ingredients__table-cell">
+                            <div class="ingredients__table-icon">Зелень</div>
+                          </td>
+                          <td class="ingredients__table-cell">
+                            <div class="ingredients__table-icon">70г</div>
+                          </td>
+                        </tr>
+                        <tr class="ingredients__table-row">
+                          <td class="ingredients__table-cell">
+                            <div class="ingredients__table-icon">
+                              <img src="img/icons/sauce.svg" class="ingredients__table-icon-image" alt="">
+                            </div>
+                          </td>
+                          <td class="ingredients__table-cell">
+                            <div class="ingredients__table-icon">Соус</div>
+                          </td>
+                          <td class="ingredients__table-cell">
+                            <div class="ingredients__table-icon">150г</div>
+                          </td>
+                        </tr>
+                        <tr class="ingredients__table-row">
+                          <td class="ingredients__table-cell">
+                            <div class="ingredients__table-icon">
+                              <img src="img/icons/cucumber.svg" class="ingredients__table-icon-image" alt="">
+                            </div>
+                          </td>
+                          <td class="ingredients__table-cell">
+                            <div class="ingredients__table-icon">Овощи</div>
+                          </td>
+                          <td class="ingredients__table-cell">
+                            <div class="ingredients__table-icon">200г</div>
+                          </td>
+                        </tr>
+                        <tr class="ingredients__table-row">
+                          <td class="ingredients__table-cell">
+                            <div class="ingredients__table-icon">
+                              <img src="img/icons/cheese.svg" class="ingredients__table-icon-image" alt="">
+                            </div>
+                          </td>
+                          <td class="ingredients__table-cell">
+                            <div class="ingredients__table-icon">Сыр</div>
+                          </td>
+                          <td class="ingredients__table-cell">
+                            <div class="ingredients__table-icon">80г</div>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="burger-weight">
+                    <div class="burger-weight__measure">
+                      <div class="burger-weight__amount">1200</div>
+                    </div>
+                    <div class="burger-weight__title">ккал</div>
+                  </div>
+                  <div class="burgers-slider__left"><img class="burgers-slider__pic" src="./img/content/black-burger.png" alt=""></div>
                   <div class="burgers-slider__right">
                     <div class="section__title section__title_white">Dark Beef Burger</div>
                     <div class="burgers-slider__text text-block">
@@ -258,7 +374,7 @@
             <li class="team-acco__item"><a class="team-acco__trigger" href="#">дэниэл редклифф</a>
               <div class="team-acco__content">
                 <div class="team-acco__pic">
-                  <div class="team-acco__img" style="background-image: url('img/content/teammate.jpg')"></div>
+                  <div class="team-acco__img" style="background-image: url('./img/content/teammate.jpg')"></div>
                 </div>
                 <div class="team-acco__text">
                   <div class="team-acco__title">Шеф-повар</div>
@@ -269,7 +385,7 @@
             <li class="team-acco__item"><a class="team-acco__trigger" href="#">ричард джеймс</a>
               <div class="team-acco__content">
                 <div class="team-acco__pic">
-                  <div class="team-acco__img" style="background-image: url('img/content/teammate.jpg')"></div>
+                  <div class="team-acco__img" style="background-image: url('./img/content/teammate.jpg')"></div>
                 </div>
                 <div class="team-acco__text">
                   <div class="team-acco__title">Оператор</div>
@@ -280,7 +396,7 @@
             <li class="team-acco__item"><a class="team-acco__trigger" href="#">Джейк Финн</a>
               <div class="team-acco__content">
                 <div class="team-acco__pic">
-                  <div class="team-acco__img" style="background-image: url('img/content/teammate.jpg')"></div>
+                  <div class="team-acco__img" style="background-image: url('./img/content/teammate.jpg')"></div>
                 </div>
                 <div class="team-acco__text">
                   <div class="team-acco__title">Менеджер</div>
@@ -291,7 +407,7 @@
             <li class="team-acco__item"><a class="team-acco__trigger" href="#">Николай Иванов</a>
               <div class="team-acco__content">
                 <div class="team-acco__pic">
-                  <div class="team-acco__img" style="background-image: url('img/content/teammate.jpg')"></div>
+                  <div class="team-acco__img" style="background-image: url('./img/content/teammate.jpg')"></div>
                 </div>
                 <div class="team-acco__text">
                   <div class="team-acco__title">Шоколатье</div>
@@ -307,7 +423,7 @@
         <div class="section__title section__title_white menu__title">Меню</div>
         <ul class="menu-acco">
           <li class="menu-acco__item">
-            <a class="menu-acco__trigger" href="#" style="background-image: url('img/bg/menu/meats.jpg')">
+            <a class="menu-acco__trigger" href="#" style="background-image: url('./img/bg/menu/meats.jpg')">
               <div class="menu-acco__trigger-text">Для мясоедов</div>
             </a>
             <div class="menu-acco__content">
@@ -322,7 +438,7 @@
             </div>
           </li>
           <li class="menu-acco__item">
-            <a class="menu-acco__trigger" href="#" style="background-image: url('img/bg/menu/vegans.jpg')">
+            <a class="menu-acco__trigger" href="#" style="background-image: url('./img/bg/menu/vegans.jpg')">
               <div class="menu-acco__trigger-text">Вегетарианское</div>
             </a>
             <div class="menu-acco__content">
@@ -337,7 +453,7 @@
             </div>
           </li>
           <li class="menu-acco__item">
-            <a class="menu-acco__trigger" href="#" style="background-image: url('img/bg/menu/diets.jpg')">
+            <a class="menu-acco__trigger" href="#" style="background-image: url('./img/bg/menu/diets.jpg')">
               <div class="menu-acco__trigger-text">Диетическое</div>
             </a>
             <div class="menu-acco__content">
@@ -358,7 +474,7 @@
         <ul class="reviews__list">
           <li class="reviews__item">
             <div class="review">
-              <div class="review__photo" style="background-image: url('img/content/reviews/1.jpg')"></div>
+              <div class="review__photo" style="background-image: url('./img/content/reviews/1.jpg')"></div>
               <div class="review__hover">
                 <div class="review__title">Константин Спилберг</div>
                 <div class="review__shorttext">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки
@@ -369,7 +485,7 @@
           </li>
           <li class="reviews__item">
             <div class="review">
-              <div class="review__photo" style="background-image: url('img/content/reviews/2.jpg')"></div>
+              <div class="review__photo" style="background-image: url('./img/content/reviews/2.jpg')"></div>
               <div class="review__hover">
                 <div class="review__title">Константин Спилберг</div>
                 <div class="review__shorttext">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки
@@ -380,7 +496,7 @@
           </li>
           <li class="reviews__item">
             <div class="review">
-              <div class="review__photo" style="background-image: url('img/content/reviews/3.jpg')"></div>
+              <div class="review__photo" style="background-image: url('./img/content/reviews/3.jpg')"></div>
               <div class="review__hover">
                 <div class="review__title">Константин Спилберг</div>
                 <div class="review__shorttext">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки
@@ -391,7 +507,7 @@
           </li>
           <li class="reviews__item">
             <div class="review">
-              <div class="review__photo" style="background-image: url('img/content/reviews/4.jpg')"></div>
+              <div class="review__photo" style="background-image: url('./img/content/reviews/4.jpg')"></div>
               <div class="review__hover">
                 <div class="review__title">Константин Спилберг</div>
                 <div class="review__shorttext">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки
@@ -402,7 +518,7 @@
           </li>
           <li class="reviews__item">
             <div class="review">
-              <div class="review__photo" style="background-image: url('img/content/reviews/5.jpg')"></div>
+              <div class="review__photo" style="background-image: url('./img/content/reviews/5.jpg')"></div>
               <div class="review__hover">
                 <div class="review__title">Константин Спилберг</div>
                 <div class="review__shorttext">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки
@@ -413,7 +529,7 @@
           </li>
           <li class="reviews__item">
             <div class="review">
-              <div class="review__photo" style="background-image: url('img/content/reviews/6.jpg')"></div>
+              <div class="review__photo" style="background-image: url('./img/content/reviews/6.jpg')"></div>
               <div class="review__hover">
                 <div class="review__title">Константин Спилберг</div>
                 <div class="review__shorttext">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки
@@ -424,7 +540,7 @@
           </li>
           <li class="reviews__item">
             <div class="review">
-              <div class="review__photo" style="background-image: url('img/content/reviews/7.jpg')"></div>
+              <div class="review__photo" style="background-image: url('./img/content/reviews/7.jpg')"></div>
               <div class="review__hover">
                 <div class="review__title">Константин Спилберг</div>
                 <div class="review__shorttext">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки
@@ -435,7 +551,7 @@
           </li>
           <li class="reviews__item">
             <div class="review">
-              <div class="review__photo" style="background-image: url('img/content/reviews/8.jpg')"></div>
+              <div class="review__photo" style="background-image: url('./img/content/reviews/8.jpg')"></div>
               <div class="review__hover">
                 <div class="review__title">Константин Спилберг</div>
                 <div class="review__shorttext">Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки
@@ -455,64 +571,64 @@
               <div class="order__form-col">
                 <div class="order__form-row order__form-row_double">
                   <label class="order__form-block">
-											<div class="order__form-label">Имя</div>
-											<input class="order__form-input" name="name" type="text" placeholder="">
-										</label>
+                      <div class="order__form-label">Имя</div>
+                      <input class="order__form-input" name="name" type="text" placeholder="">
+                    </label>
                   <label class="order__form-block">
-											<div class="order__form-label">Телефон</div>
-											<input class="order__form-input phone-mask" name="phone" type="text" placeholder="">
-										</label>
+                      <div class="order__form-label">Телефон</div>
+                      <input class="order__form-input phone-mask" name="phone" type="text" placeholder="">
+                    </label>
                 </div>
                 <div class="order__form-row">
                   <label class="order__form-block">
-											<div class="order__form-label">Улица</div>
-											<input class="order__form-input" name="street" type="text" placeholder="">
-										</label>
+                      <div class="order__form-label">Улица</div>
+                      <input class="order__form-input" name="street" type="text" placeholder="">
+                    </label>
                 </div>
                 <div class="order__form-row order__form-row_quatro">
                   <label class="order__form-block">
-											<div class="order__form-label">Дом</div>
-											<input class="order__form-input" name="home" type="text" placeholder="">
-										</label>
+                      <div class="order__form-label">Дом</div>
+                      <input class="order__form-input" name="home" type="text" placeholder="">
+                    </label>
                   <label class="order__form-block">
-											<div class="order__form-label">Корпус</div>
-											<input class="order__form-input" name="part" type="text" placeholder="">
-										</label>
+                      <div class="order__form-label">Корпус</div>
+                      <input class="order__form-input" name="part" type="text" placeholder="">
+                    </label>
                   <label class="order__form-block">
-											<div class="order__form-label">Квартира</div>
-											<input class="order__form-input" name="appt" type="text" placeholder="">
-										</label>
+                      <div class="order__form-label">Квартира</div>
+                      <input class="order__form-input" name="appt" type="text" placeholder="">
+                    </label>
                   <label class="order__form-block">
-											<div class="order__form-label">Этаж</div>
-											<input class="order__form-input" name="floor" type="text" placeholder="">
-										</label>
+                      <div class="order__form-label">Этаж</div>
+                      <input class="order__form-input" name="floor" type="text" placeholder="">
+                    </label>
                 </div>
               </div>
               <div class="order__form-col">
                 <div class="order__form-row">
                   <label class="order__form-block">
-											<div class="order__form-label">Комментарий</div>
-											<textarea class="order__form-input order__form-input_textarea" name="comment"></textarea>
-										</label>
+                      <div class="order__form-label">Комментарий</div>
+                      <textarea class="order__form-input order__form-input_textarea" name="comment"></textarea>
+                    </label>
                 </div>
                 <div class="order__form-row">
                   <label class="order__radio">
-											<input class="order__radio-elem" name="payment" type="radio">
-											<div class="order__radio-fake"></div>
-											<div class="order__radio-title">Потребуется сдача</div>
-										</label>
+                      <input class="order__radio-elem" name="payment" type="radio">
+                      <div class="order__radio-fake"></div>
+                      <div class="order__radio-title">Потребуется сдача</div>
+                    </label>
                   <label class="order__radio">
-											<input class="order__radio-elem" name="payment" type="radio">
-											<div class="order__radio-fake"></div>
-											<div class="order__radio-title">Оплата по карте</div>
-										</label>
+                      <input class="order__radio-elem" name="payment" type="radio">
+                      <div class="order__radio-fake"></div>
+                      <div class="order__radio-title">Оплата по карте</div>
+                    </label>
                 </div>
                 <div class="order__form-row">
                   <label class="order__radio order__radio_checkbox">
-											<input class="order__radio-elem" name="callback" type="checkbox">
-											<div class="order__radio-fake"></div>
-											<div class="order__radio-title">Не перезванивать</div>
-										</label>
+                      <input class="order__radio-elem" name="callback" type="checkbox">
+                      <div class="order__radio-fake"></div>
+                      <div class="order__radio-title">Не перезванивать</div>
+                    </label>
                 </div>
                 <div class="order__form-row">
                   <input class="order__form-button btn" name="" type="submit" value="Заказать">
@@ -529,7 +645,7 @@
         <footer class="footer">
           <div class="container">
             <div class="footer__col">
-              <div class="footer__address">Санкт-Петербург, ул.Бабушкина, д.12/1, 15</div><a class="footer__phone" href="tel:+78123771377">+7 (812) 377-13-77</a>
+              <div class="footer__address">Москва, ул.Тверская, д.12/1, 15</div><a class="footer__phone" href="tel:+79999999999">+7 (999) 999-99-99</a>
             </div>
             <div class="footer__col footer__col_right">
               <ul class="socials">
@@ -622,9 +738,9 @@
       <div class="status-popup__message error-message">Произошла ошибка</div><a class="status-popup__close btn" href="#">Закрыть</a>
     </div>
   </div>
-
-  <!-- scripts -->
-  
+  <script src="js/vendors.min.js"></script>
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
